@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+</head>
+<body>
+    <h1>
+        HTML Forms (Not JavaScript)
+    </h1>
+    <p>
+        Page will be go to Sever Respone (Broswer Atuo Redirect)
+    </p>
+    <form action="http://localhost:3001/" method="post" enctype="application/x-www-form-urlencoded">
+        <label for="text">
+            Text:
+        </label>
+        <br />
+        <textarea name="text_content" id="text">
+            
+        </textarea>
+        <br />
+        <button type="submit">
+            Send
+        </button>
+    </form>
+    <div>
+        <h2>
+            JavaScript (Fetch API).
+        </h2>
+        <p>Get Respone Using JavaScript.</p>
+        <form id="form" action="http://localhost:3001/" method="post" enctype="application/x-www-form-urlencoded">
+            <label for="text">
+                Text:
+            </label>
+            <br />
+            <textarea name="text_content" placeholder="Type anyting..." id="text">
+                
+            </textarea>
+            <br />
+            <button type="submit">
+                Send
+            </button>
+        </form>
+        <label>
+            Respone:
+        </label>
+        <br>
+        <pre id="respone">
+
+        </pre>
+    </div>
+    <!--Load JavaScript File-->
+    <script src="./js/script.js"></script>
+</body>
+</html>
