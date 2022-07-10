@@ -4,9 +4,11 @@
 GoLang Server.
 
 ```sh
-cd server-side
+cd ./server-side
+# install packages
 go get github.com/labstack/echo/v4
 go get github.com/labstack/echo/v4/middleware
+# run server
 go run ./main.js
 ```
 
